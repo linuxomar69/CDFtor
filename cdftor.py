@@ -24,8 +24,8 @@ try:
 except subprocess.CalledProcessError:
 
     print('[+] tor is not installed !')
-    subprocess.check_output('sudo apt update',shell=True)
-    subprocess.check_output('sudo apt install tor -y',shell=True)
+    subprocess.check_output('pkg update',shell=True)
+    subprocess.check_output('pkg install tor -y',shell=True)
     print('[!] tor is installed succesfully ')
 
 os.system("clear")
