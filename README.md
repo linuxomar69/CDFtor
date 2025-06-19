@@ -38,12 +38,12 @@ This is a simple yet powerful Auto IP Changer tool made for Linux (Termux/Kali/U
 ## 🚀 Installation
 
 ```bash
- 1. apt  update
- 2. apt upgrade -y
- 3. apt install python3 -y
- 4. apt install git -y
- 5. git clone https://github.com/linuxomar69/CDFtor
- 6. cd CDFtor
- 7. ls
- 8. python3 install.py
- 9. python3 cdftor.py
+  apt  update
+  apt upgrade -y
+  apt install python3 -y
+  apt install git -y
+  git clone https://github.com/linuxomar69/CDFtor
+  cd CDFtor
+  ls
+  python3 install.py
+  python3 cdftor.py
